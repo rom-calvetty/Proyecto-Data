@@ -10,7 +10,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # Carga los datos
-data = pd.read_csv("D:\\data ware\\Reservas\\hotel_bookings.csv")
+data = pd.read_csv("hotel_bookings.csv")
 
 # Muesetra información general y valores nulos
 print(data.shape)
